@@ -1,0 +1,51 @@
+/* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px; */
+
+
+/* padding: top right buttom left ma order huncha */
+
+
+/* padding top/buttom left/right */
+
+
+/* 1rm= 16px */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#masthead {
+    background-color: burlywood;
+}
+
+#masthead .primary-menu ul li {
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 2rm;
+    list-style: none;
+}
+
+#masthead .primary-menu ul {
+    /*sida sida ma lageko  */
+    display: flex;
+    /* center ma lageko */
+    justify-content: center;
+    /* margin: 0; */
+}
+
+main .main-image {
+    width: 100%;
+    height: auto;
+}
+
+main .content {
+    padding: 5rem;
+}
+
+main .pp {
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}

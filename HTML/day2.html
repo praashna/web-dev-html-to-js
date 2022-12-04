@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+</head>
+
+<body>
+    <header>
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <!-- Image -->
+        <div>
+            <img src="./books.png" alt="" />
+        </div>
+
+        <div>
+            <h1>About us</h1>
+        </div>
+        <div>
+            <p>
+                Generally speaking the practice of novel-reading’ is good or bad according to circumstances. There is indeed a class of licen­tious novels, the reading of which can only produce injurious effects. But leaving these out of consideration, we may say that
+                excessive indulgence in the reading of novels is a great waste of time, while a moderate enjoyment of such works may be a good way of pleasantly and profitably whiling away a few of our leisure hours.
+            </p>
+        </div>
+
+        <!-- Div with links -->
+        <div>
+            <a href="./page.html"> Page</a> <br />
+            <a href="./page2.html"> Page 2</a> <br />
+            <a href="./page3.html"> Page 3 </a> <br />
+        </div>
+
+        <!-- Div with buttons -->
+        <!-- Implement button click in js -->
+        <div>
+            <button>Go To Page</button>
+        </div>
+
+        <!-- div with input -->
+        <!-- input - button  -->
+        <div>
+            <input type="Submit" />
+        </div>
+
+        <!-- input --text  -->
+        <div>
+            <p>Text</p>
+            <input type="text" placeholder="Enter your name" />
+        </div>
+
+        <!-- input password -->
+        <div>
+            <p>Password</p>
+            <input type="Password" placeholder="Enter your pw" />
+        </div>
+        <!--  -->
+        <div>
+            <p>Number</p>
+            <input type="Number" placeholder="e.g 123" disabled />
+        </div>
+
+        <!-- div with text area and select -->
+        <div>
+            <p>Text area</p>
+            <!-- input text area takes multiline input and can expand -->
+            <textarea cols="60" rows="6"></textarea>
+            <p>select</p>
+            <select>
+          <!-- options  -->
+          <!-- value will return the value in backend code -->
+          <option selected disabled>choose name</option>
+          <option value="1">John Doe</option>
+          <!-- disabled -->
+          <option disabled>Vicky</option>
+          <!-- selected option for automatically selected -->
+          <option selected>Nancy</option>
+          <option value="2">Mike</option>
+        </select>
+        </div>
+
+        <div>
+            <p>Radio Buttons</p>
+            <input name="tags" type="radio" id="'html">
+            <label for="html">HTML</label>
+            <input name="tags" type="radio" id="'css">
+            <label for="css">css</label>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <section>
+                <h2>Quick links</h2>
+                <ul>
+                    <li>Writer</li>
+                    <li>Books</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Contact us</h2>
+                <ul>
+                    <li>Address:ktm</li>
+                    <li>Phone no</li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
